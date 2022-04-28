@@ -1,0 +1,17 @@
+{
+	"custom.start": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "custom/start",
+                "stream": false
+            }]
+    },"custom.bomb": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "custom/bomb",
+                "stream": true
+            }]
+    }	
+}

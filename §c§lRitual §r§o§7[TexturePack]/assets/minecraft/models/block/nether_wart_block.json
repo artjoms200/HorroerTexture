@@ -1,0 +1,102 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/brick4",
+		"texture": "block/brick4",
+		"brick1": "block/brick1",
+		"brick3": "block/brick3"
+	},
+	"elements": [
+		{
+			"from": [-1, 15.5, 0],
+			"to": [16, 16, 15.5],
+			"faces": {
+				"north": {"uv": [0.001, 0.001, 15.999, 0.499], "texture": "#texture"},
+				"east": {"uv": [0.501, 0.001, 15.999, 0.499], "texture": "#texture"},
+				"south": {"uv": [0.001, 0.001, 15.999, 0.499], "texture": "#texture"},
+				"west": {"uv": [0.001, 0.001, 15.499, 0.499], "texture": "#texture"},
+				"up": {"uv": [0.001, 0.001, 15.999, 15.499], "texture": "#texture"},
+				"down": {"uv": [15.999, 15.499, 0.001, 0.001], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [14, 0, 13.5],
+			"to": [15, 15.5, 14.5],
+			"faces": {
+				"north": {"uv": [1.001, 0.501, 1.999, 15.999], "texture": "#texture"},
+				"east": {"uv": [1.501, 0.501, 2.499, 15.999], "texture": "#texture"},
+				"south": {"uv": [14.001, 0.501, 14.999, 15.999], "texture": "#texture"},
+				"west": {"uv": [13.501, 0.501, 14.499, 15.999], "texture": "#texture"},
+				"up": {"uv": [14.001, 13.501, 14.999, 14.499], "texture": "#texture"},
+				"down": {"uv": [1.999, 14.499, 1.001, 13.501], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [0.5, 0, 1],
+			"to": [1.5, 15.5, 2],
+			"faces": {
+				"north": {"uv": [14.501, 0.501, 15.499, 15.999], "texture": "#texture"},
+				"east": {"uv": [14.001, 0.501, 14.999, 15.999], "texture": "#texture"},
+				"south": {"uv": [0.501, 0.501, 1.499, 15.999], "texture": "#texture"},
+				"west": {"uv": [1.001, 0.501, 1.999, 15.999], "texture": "#texture"},
+				"up": {"uv": [0.501, 1.001, 1.499, 1.999], "texture": "#texture"},
+				"down": {"uv": [15.499, 1.999, 14.501, 1.001], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [0.5, 0, 13.5],
+			"to": [1.5, 15.5, 14.5],
+			"faces": {
+				"north": {"uv": [14.501, 0.501, 15.499, 15.999], "texture": "#texture"},
+				"east": {"uv": [1.501, 0.501, 2.499, 15.999], "texture": "#texture"},
+				"south": {"uv": [0.501, 0.501, 1.499, 15.999], "texture": "#texture"},
+				"west": {"uv": [13.501, 0.501, 14.499, 15.999], "texture": "#texture"},
+				"up": {"uv": [0.501, 13.501, 1.499, 14.499], "texture": "#texture"},
+				"down": {"uv": [15.499, 14.499, 14.501, 13.501], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [14, 0, 0.9375],
+			"to": [15, 15.5, 1.9375],
+			"faces": {
+				"north": {"uv": [1.001, 0.501, 1.999, 15.999], "texture": "#texture"},
+				"east": {"uv": [14.0635, 0.501, 15.0615, 15.999], "texture": "#texture"},
+				"south": {"uv": [14.001, 0.501, 14.999, 15.999], "texture": "#texture"},
+				"west": {"uv": [0.9385, 0.501, 1.9365, 15.999], "texture": "#texture"},
+				"up": {"uv": [14.001, 0.9385, 14.999, 1.9365], "texture": "#texture"},
+				"down": {"uv": [1.999, 1.9365, 1.001, 0.9385], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [1, 12, 1.5],
+			"to": [14.5, 15.5, 13.5],
+			"faces": {
+				"north": {"uv": [0.001, 0.001, 15.999, 6.499], "texture": "#brick1"},
+				"east": {"uv": [0.001, 0.001, 15.999, 5.499], "texture": "#brick1"},
+				"south": {"uv": [0.001, 0.001, 15.999, 5.999], "texture": "#brick1"},
+				"west": {"uv": [0.001, 0.001, 15.999, 6.499], "texture": "#brick1"},
+				"up": {"uv": [0.001, 3.501, 15.999, 15.499], "texture": "#brick1"},
+				"down": {"uv": [15.999, 14.999, 0.001, 4.001], "texture": "#brick1"}
+			}
+		},
+		{
+			"from": [4, 12.375, 13.125],
+			"to": [11.25, 15.125, 13.875],
+			"faces": {
+				"north": {"uv": [0.001, 0.001, 12.999, 5.499], "texture": "#texture"},
+				"east": {"uv": [0.001, 0.001, 2.999, 8.999], "texture": "#texture"},
+				"south": {"uv": [0.501, 1.001, 15.499, 7.499], "texture": "#brick3"},
+				"west": {"uv": [0.001, 0.001, 3.499, 7.499], "texture": "#texture"},
+				"up": {"uv": [0.001, 0.001, 3.499, 9.499], "texture": "#texture"},
+				"down": {"uv": [0.001, 0.001, 3.999, 6.999], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0.75, 0.5, -17.25],
+			"scale": [2.27734, 2.27734, 2.27734]
+		}
+	}
+}
